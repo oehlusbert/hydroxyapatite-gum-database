@@ -16,6 +16,7 @@ Eight brands sell hydroxyapatite gum in the US. As of July 2026, only two publis
 - **"Not disclosed" is itself the datum.** If a figure is not published anywhere by the brand, it is recorded as not disclosed, never guessed or inferred.
 - Facts that could not be verified directly were left out rather than estimated.
 - Prices are excluded: pack sizes and channels vary too much for a fair per-piece comparison.
+- Last live re-check: 1 August 2026 (Crait, Enamio, Underbrush, Dentagum, VanMan, Weldental). No brand had started or stopped disclosing; Crait's 70 mg non-nano wording is unchanged word for word. CaviChew's Amazon listing was only partially readable and was not re-verified.
 
 ## Read this before comparing milligrams
 
