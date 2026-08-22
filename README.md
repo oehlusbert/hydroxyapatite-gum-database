@@ -8,7 +8,7 @@ Data: [`data/gum-spec-database.csv`](data/gum-spec-database.csv)
 
 ## Why this exists
 
-Eight brands sell hydroxyapatite gum in the US. As of July 2026, only two publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
+Eleven brands sell hydroxyapatite gum in the US. As of August 2026, only two publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
 
 ## Method
 
