@@ -1,6 +1,6 @@
 # The Hydroxyapatite Gum Database
 
-A sourced comparison of what every hydroxyapatite chewing gum brand sold in the US actually publishes: dose per piece, particle form, ingredient disclosure, public lab reports, cited studies, and guarantee terms.
+A sourced comparison of what every hydroxyapatite chewing gum brand we track actually publishes: dose per piece, particle form, ingredient disclosure, public lab reports, cited studies, and guarantee terms.
 
 Live, human-readable version: **https://www.minvelle.com/pages/hydroxyapatite-gum-database**
 
@@ -8,7 +8,7 @@ Data: [`data/gum-spec-database.csv`](data/gum-spec-database.csv)
 
 ## Why this exists
 
-Eleven brands sell hydroxyapatite gum in the US. As of August 2026, only two publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
+Fourteen brands sell hydroxyapatite gum online. As of August 2026, only two publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
 
 ## Method
 
@@ -16,6 +16,7 @@ Eleven brands sell hydroxyapatite gum in the US. As of August 2026, only two pub
 - **"Not disclosed" is itself the datum.** If a figure is not published anywhere by the brand, it is recorded as not disclosed, never guessed or inferred.
 - Facts that could not be verified directly were left out rather than estimated.
 - Prices are excluded: pack sizes and channels vary too much for a fair per-piece comparison.
+- Kreain, Aurien and Gud Gum+ were added on 28 August 2026, with their cells checked that day. Gud Gum+ is the first brand in the set based outside the United States, so the dataset is no longer scoped to US brands only.
 - Last live re-check: 1 August 2026 (Crait, Enamio, Underbrush, Dentagum, VanMan, Weldental). No brand had started or stopped disclosing; Crait's 70 mg non-nano wording is unchanged word for word. CaviChew's Amazon listing was only partially readable and was not re-verified.
 
 ## Read this before comparing milligrams
