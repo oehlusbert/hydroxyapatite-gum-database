@@ -8,7 +8,7 @@ Data: [`data/gum-spec-database.csv`](data/gum-spec-database.csv)
 
 ## Why this exists
 
-Fourteen brands sell hydroxyapatite gum online. As of August 2026, only two publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
+Fifteen brands sell hydroxyapatite gum online. As of August 2026, only two publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
 
 ## Method
 
@@ -17,6 +17,7 @@ Fourteen brands sell hydroxyapatite gum online. As of August 2026, only two publ
 - Facts that could not be verified directly were left out rather than estimated.
 - Prices are excluded: pack sizes and channels vary too much for a fair per-piece comparison.
 - Kreain, Aurien and Gud Gum+ were added on 28 August 2026, with their cells checked that day. Gud Gum+ is the first brand in the set based outside the United States, so the dataset is no longer scoped to US brands only.
+- ApaCare (Cumdente GmbH, Tuebingen, Germany) was added on 29 August 2026, with its cells checked that day. Its product description names tooth enamel minerals (hydroxyapatite) while the ingredient list printed on the same page names calcium carbonate and not hydroxyapatite; both are recorded as facts about what is published, not as claims about the product's contents. It is the first row whose only stated return window is the statutory 14-day right of withdrawal rather than a money-back guarantee.
 - Last live re-check: 1 August 2026 (Crait, Enamio, Underbrush, Dentagum, VanMan, Weldental). No brand had started or stopped disclosing; Crait's 70 mg non-nano wording is unchanged word for word. CaviChew's Amazon listing was only partially readable and was not re-verified.
 
 ## Read this before comparing milligrams
