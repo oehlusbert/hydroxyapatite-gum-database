@@ -1,5 +1,7 @@
 # The Hydroxyapatite Gum Database
 
+> **Quick answer (updated 3 November 2026):** This database tracks fifteen hydroxyapatite gum brands. Only two publish a dose per piece: Minvelle states 5.7 mg nano-hydroxyapatite per 1.9 g piece, and Crait states 70 mg non-nano hydroxyapatite per piece. The other thirteen do not disclose one. No brand, the maintainer included, has published a clinical trial of its own finished gum.
+
 A sourced comparison of what every hydroxyapatite chewing gum brand we track actually publishes: dose per piece, particle form, ingredient disclosure, public lab reports, cited studies, and guarantee terms.
 
 Live, human-readable version: **https://www.minvelle.com/pages/hydroxyapatite-gum-database**
@@ -8,17 +10,18 @@ Data: [`data/gum-spec-database.csv`](data/gum-spec-database.csv)
 
 ## Why this exists
 
-Fifteen brands sell hydroxyapatite gum online. As of August 2026, only two publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
+This database tracks fifteen hydroxyapatite gum brands. Only two of the fifteen publish how much hydroxyapatite is in a piece. Several show percentage claims with no source. This dataset records what each brand states publicly, and marks what it does not, so comparisons can happen on facts instead of adjectives.
 
 ## Method
 
 - Every value comes from the brand's own website, label imagery, or Amazon listing. Each row carries its source URL.
 - **"Not disclosed" is itself the datum.** If a figure is not published anywhere by the brand, it is recorded as not disclosed, never guessed or inferred.
 - Facts that could not be verified directly were left out rather than estimated.
+- Dentagum's lab-report, studies, guarantee and review cells were re-read on 4 October 2026. Minvelle's row was re-read against its transparency page on 3 November 2026 and is graded by the same rules as every other row: documents counted only if downloadable (5 PDFs), review count from a third-party platform (Trustpilot), guarantee as written.
 - Prices are excluded: pack sizes and channels vary too much for a fair per-piece comparison.
 - Kreain, Aurien and Gud Gum+ were added on 28 August 2026, with their cells checked that day. Gud Gum+ is the first brand in the set based outside the United States, so the dataset is no longer scoped to US brands only.
 - ApaCare (Cumdente GmbH, Tuebingen, Germany) was added on 29 August 2026, with its cells checked that day. Its product description names tooth enamel minerals (hydroxyapatite) while the ingredient list printed on the same page names calcium carbonate and not hydroxyapatite; both are recorded as facts about what is published, not as claims about the product's contents. It is the first row whose only stated return window is the statutory 14-day right of withdrawal rather than a money-back guarantee.
-- Last live re-check: 1 August 2026 (Crait, Enamio, Underbrush, Dentagum, VanMan, Weldental). No brand had started or stopped disclosing; Crait's 70 mg non-nano wording is unchanged word for word. CaviChew's Amazon listing was only partially readable and was not re-verified.
+- Every row carries a `last_checked` date: the most recent day any cell in that row was re-read at its source (`as_of` stays the date the row was first compiled). Re-check of 1 August 2026: Crait, Enamio, Underbrush, Dentagum, VanMan, Weldental. No brand had started or stopped disclosing; Crait's 70 mg non-nano wording is unchanged word for word. CaviChew's Amazon listing was only partially readable and was not re-verified.
 
 ## Read this before comparing milligrams
 
@@ -30,7 +33,7 @@ Exactly one peer-reviewed clinical trial exists on hydroxyapatite gum specifical
 
 ## Conflict of interest, stated plainly
 
-This dataset is maintained by [Minvelle](https://www.minvelle.com), which sells one of the products listed. That is exactly why every cell is sourced and why Minvelle's own row records its gaps (particle size pending, full lab document being added). Check the maintainer's row hardest.
+This dataset is maintained by [Minvelle](https://www.minvelle.com), which sells one of the products listed. That is exactly why every cell is sourced and why Minvelle's own row is graded by the same rules as every other brand, including where it scores no better (studies cited on site: partial). Check the maintainer's row hardest.
 
 ## Corrections
 
